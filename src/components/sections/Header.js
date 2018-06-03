@@ -8,13 +8,13 @@ class Header extends Component {
             <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
                 <div className="container">
                     <div className="navbar-header">
-                        <Link className="navbar-brand" to="/">Project name</Link>
+                        <Link className="navbar-brand" to="/">رزروینا</Link>
                     </div>
                     <div id="navbar" className="collapse navbar-collapse">
                         <ul className="nav navbar-nav">
-                            <NavItem activeOnlyWhenExact={true} activeClassName="selected" to="/">Home</NavItem>
-                            <NavItem to="/about">About</NavItem>
-                            <NavItem to="/contact">Contact</NavItem>
+                            <NavItem activeOnlyWhenExact={true} activeClassName="selected" to="/">صفحه اصلی</NavItem>
+                            <NavItem to="/about">درباره ما</NavItem>
+                            <NavItem to="/contact">تماس با ما</NavItem>
                         </ul>
                     </div>
                 </div>
