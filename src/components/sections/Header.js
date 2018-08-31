@@ -10,7 +10,7 @@ class Header extends Component {
                     <div className="navbar-header">
                         <Link className="navbar-brand" to="/">رزروینا</Link>
                     </div>
-                    <div id="navbar" className="collapse navbar-collapse">
+                    <div id="navbar" className="collapse navbar-collapse pull-right">
                         <ul className="nav navbar-nav">
                             <NavItem activeOnlyWhenExact={true} activeClassName="selected" to="/">صفحه اصلی</NavItem>
                             <NavItem to="/about">درباره ما</NavItem>
