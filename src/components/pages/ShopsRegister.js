@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class Shops extends Component {
+class ShopsRegister extends Component {
     constructor(){
         super();
         this.setState({
@@ -135,4 +135,4 @@ class Shops extends Component {
     }
 }
 
-export default Shops;
+export default ShopsRegister;

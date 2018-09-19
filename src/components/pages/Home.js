@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Home extends Component {
     render() {
@@ -14,7 +14,7 @@ class Home extends Component {
                         <p className="animate fadeIn text-center">مدیریت هزینه و زمان، افزایش مراجعات به آرایشگاه،<br />
                             یافته شدن در جستجو های اینترنتی، ارتباط با کاربران از طریق ایمیل ، پیامک و پیام های درون سایتی و دیگر امکانات مفید جهت رونق کسب و کار شما!</p>
                         <p className="text-center animate fadeInUp margin-bottom-50">
-                            <button type="button" className="btn btn-lg btn-primary">ثبت آرایشگاه</button>
+                            <Link to={`shops`} className="btn btn-lg btn-primary">جستجوی آرایشگاه</Link>
                         </p>
                     </div>
 

@@ -86,6 +86,7 @@ class App extends Component {
                             <Route path="/" exact={true} component={Home}/>
                             <Route path="/product/:id" component={Product}/>
                             <Route path="/shops" component={Shops}/>
+                            <Route path="/register_shop" component={ShopsRegister}/>
                             <Route path="/contact" component={Contact}/>
                             <Route component={NoMatch}/>
                         </Switch>
